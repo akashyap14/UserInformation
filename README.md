@@ -6,7 +6,7 @@ User information can be viewed in two form like card and table.
 
 Download or clone the repository to your local machine:
 
-$ git clone https://gitlab.com/tripetto/examples/angular.git
+$ git clone https://github.com/akashyap14/UserInformation.git
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
