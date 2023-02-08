@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="col-10">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a  [routerLink]="'/user-information'">User information </a>
+      </li>
+      <span [style.color]="'white'">|</span>
+      <li class="nav-item">
+        <a  [routerLink]="'/about-us'">About Us</a>
+      </li>
+      <span [style.color]="'white'">|</span>
+      <li class="nav-item">
+        <a [routerLink]="'/contact'">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class=""col-2>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
+      <li class="nav-item">
+        <a href="#">{{newDate | date : 'dd-MMMM-YY' }}</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
